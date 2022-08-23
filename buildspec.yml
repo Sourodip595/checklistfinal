@@ -8,9 +8,9 @@ phases:
     - echo Logging in to Amazon ECR...
     - aws --version
     - aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 860061945305.dkr.ecr.us-east-1.amazonaws.com
-    - IMAGE_NAME=audit-checklist02
-    - IMAGE_URI=860061945305.dkr.ecr.us-east-1.amazonaws.com/audit-checklist02:latest
-    - CONTAINER_NAME=audit-checklist02
+    - IMAGE_NAME=sourodip-checklist
+    - IMAGE_URI=860061945305.dkr.ecr.us-east-1.amazonaws.com/sourodip-checklist:latest
+    - CONTAINER_NAME=sourodip-checklist
   build:
     commands:
     - echo Build started on `date`
