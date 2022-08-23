@@ -6,6 +6,5 @@ Resources:
         TaskDefinition: "arn:aws:ecs:us-east-1:860061945305:task-definition/sourodip-checklist-task:1"
         LoadBalancerInfo:
           ContainerName: "sourodip-checklist"
-          #updated
           ContainerPort: "8200"
         PlatformVersion: "LATEST"
