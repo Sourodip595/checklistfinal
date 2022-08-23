@@ -3,8 +3,8 @@ Resources:
   - TargetService:
       Type: AWS::ECS::Service
       Properties:
-        TaskDefinition: "arn:aws:ecs:us-east-1:860061945305:task-definition/audit-checklist8200-task-new:4"
+        TaskDefinition: "arn:aws:ecs:us-east-1:860061945305:task-definition/sourodip-checklist-task:1"
         LoadBalancerInfo:
-          ContainerName: "audit-checklist02"
+          ContainerName: "sourodip-checklist"
           ContainerPort: "8200"
         PlatformVersion: "LATEST"
